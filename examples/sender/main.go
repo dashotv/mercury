@@ -2,9 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/dashotv/mercury"
-	"github.com/nats-io/go-nats"
 	"time"
+
+	"github.com/nats-io/go-nats"
+
+	"github.com/dashotv/mercury"
 )
 
 func main() {
