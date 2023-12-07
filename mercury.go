@@ -38,3 +38,7 @@ func New(name string, URL string) (*Mercury, error) {
 	m.ec = c
 	return m, nil
 }
+
+func (m *Mercury) Status() nats.Status {
+	return m.nc.Status()
+}
