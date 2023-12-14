@@ -1,26 +1,30 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 dashotv/mercury is built on the following main stack:
+
 - [Golang](http://golang.org/) – Languages
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 dashotv/mercury is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/1005/O6AczwfV_400x400.png' alt='Golang'/> [Golang](http://golang.org/) – Languages
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [dashotv/mercury](https://github.com/dashotv/mercury)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|2<br/>Tools used|11/10/23 <br/>Report generated|
+|6<br/>Tools used|12/14/23 <br/>Report generated|
 |------|------|
 </div>
 
@@ -50,7 +54,19 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
+
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (4)</h2>
+
+## <img width='24' height='24' src='https://img.stackshare.io/service/21112/default_1346bbda8fe03e4dce5601323a3ca47a10c1ae36.png'/> Go Packages (4)
+
+|NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
+|:------|:------|:------|:------|:------|:------|
+|[compress](https://pkg.go.dev/github.com/klauspost/compress)|v1.17.1|10/19/23|Shawn Catanzarite |BSD-3-Clause|N/A|
+|[crypto](https://pkg.go.dev/golang.org/x/crypto)|v0.14.0|10/19/23|Shawn Catanzarite |BSD-3-Clause|N/A|
+|[nuid](https://pkg.go.dev/github.com/nats-io/nuid)|v1.0.1|10/19/23|Shawn Catanzarite |Apache-2.0|N/A|
+|[sys](https://pkg.go.dev/golang.org/x/sys)|v0.13.0|11/23/19|Shawn Catanzarite |BSD-3-Clause|N/A|
+
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
