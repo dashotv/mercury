@@ -1,11 +1,11 @@
 repo_name: dashotv/mercury
-report_id: 9e1dd73246c03693e61eb1f0318247a9
+report_id: 4a9d7b99a6ccacf1adf4733b34106f76
 repo_type: Public
-timestamp: '2023-11-10T00:16:24+00:00'
+timestamp: '2023-12-14T10:04:20+00:00'
 requested_by: shawncatz
 provider: github
 branch: master
-detected_tools_count: 2
+detected_tools_count: 6
 tools:
 - name: Golang
   description: An open source programming language that makes it easy to build simple,
@@ -27,3 +27,59 @@ tools:
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
   detection_source: Repo Metadata
+- name: compress
+  description: Optimized compression packages
+  package_url: https://pkg.go.dev/github.com/klauspost/compress
+  version: 1.17.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/dashotv/mercury/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Shawn Catanzarite
+  last_updated_on: 2023-10-19 19:17:25.000000000 Z
+- name: crypto
+  description: Go supplementary cryptography libraries
+  package_url: https://pkg.go.dev/golang.org/x/crypto
+  version: 0.14.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/dashotv/mercury/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Shawn Catanzarite
+  last_updated_on: 2023-10-19 19:17:25.000000000 Z
+- name: nuid
+  description: NATS Unique Identifiers
+  package_url: https://pkg.go.dev/github.com/nats-io/nuid
+  version: 1.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/dashotv/mercury/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Shawn Catanzarite
+  last_updated_on: 2023-10-19 19:17:25.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.13.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/dashotv/mercury/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Shawn Catanzarite
+  last_updated_on: 2019-11-23 11:22:51.000000000 Z
