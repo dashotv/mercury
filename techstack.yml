@@ -1,7 +1,8 @@
 repo_name: dashotv/mercury
-report_id: 4a9d7b99a6ccacf1adf4733b34106f76
+report_id: 9e1dd73246c03693e61eb1f0318247a9
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-14T10:04:20+00:00'
+timestamp: '2024-01-05T09:04:28+00:00'
 requested_by: shawncatz
 provider: github
 branch: master
@@ -17,6 +18,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/dashotv/mercury
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -26,6 +28,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/dashotv/mercury
   detection_source: Repo Metadata
 - name: compress
   description: Optimized compression packages
